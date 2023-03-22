@@ -201,7 +201,7 @@ def hangman():
 
         guesses += 1
 
-        if wrong == 9:
+        if wrong == 11:
             return f"You tried {guesses} times but you still failed :(\nThe word was {word}"
         
         guessed = True
